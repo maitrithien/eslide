@@ -1,0 +1,33 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  user_id: MyString
+  email: MyString
+  password: MyString
+  password_black: MyString
+  password_salt: MyString
+  is_locked_out: 
+  is_approved: 
+  last_login_date: 2013-09-11 00:18:28
+  last_password_changed_date: 2013-09-11 00:18:28
+  last_lock_out_date: 2013-09-11 00:18:28
+  last_login_at: MyString
+  password_question: MyString
+  password_answer: MyString
+  comment: MyString
+
+two:
+  user_id: MyString
+  email: MyString
+  password: MyString
+  password_black: MyString
+  password_salt: MyString
+  is_locked_out: 
+  is_approved: 
+  last_login_date: 2013-09-11 00:18:28
+  last_password_changed_date: 2013-09-11 00:18:28
+  last_lock_out_date: 2013-09-11 00:18:28
+  last_login_at: MyString
+  password_question: MyString
+  password_answer: MyString
+  comment: MyString

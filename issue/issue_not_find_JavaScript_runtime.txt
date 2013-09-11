@@ -1,0 +1,15 @@
+#issue: Could not find a JavaScript runtime. 
+#See https://github.com/sstephenson/execjs for
+#a list of available runtimes.
+
+#change:
+#$ git clone git://github.com/ry/node.git
+#$ cd node
+#$ ./configure
+#$ make
+#$ sudo make install
+
+#After that, run "bundle install" as usual 
+#(from folder with ruby&rails project). 
+#And the problem was resolved. Ruby did not 
+#have to reinstall.

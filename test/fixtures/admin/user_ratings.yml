@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  user_id: MyString
+  count: 9.99
+  total_star: 9.99
+  peoples: MyString
+
+two:
+  user_id: MyString
+  count: 9.99
+  total_star: 9.99
+  peoples: MyString

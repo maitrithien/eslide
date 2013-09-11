@@ -1,0 +1,24 @@
+Create_User:
+rails g model admin::user user_id user_name lower_user_name is_anonymous:bool
+
+Create_Application:
+rails g model admin::application application_id application_name description logo_image slogan
+
+Create_UserMember
+rails g model admin::user_member user_id email password password_black password_salt is_locked_out:bool is_approved:bool last_login_date:datetime last_password_changed_date:datetime last_lock_out_date:datetime last_login_at password_question password_answer comment
+
+Create_UserProfile
+rails g model admin::user_profile user_id image display_name date_of_birth:date phone_number address yahoo_contact
+
+Create_UserRating
+rails g model admin::user_rating user_id count:decimal total_star:decimal peoples
+
+Create_Role
+rails g model admin::role role_id role_name description
+
+Create_UserInRole
+rails g model admin::user_in_role user_id role_id
+
+
+Destroy:
+replace 'g' by 'd' command
